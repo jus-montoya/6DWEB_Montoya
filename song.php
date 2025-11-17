@@ -1,4 +1,6 @@
 <?php
+/*Montoya, Justine S.
+WD - 202*/
 $title = 'Here I am';
 $artist = 'Air Supply';
 $mood = 'Heartbroken';
@@ -6,7 +8,7 @@ $verseCount = '3';
 $preChorus_count = 2;
 $repeatChorus = 2;
 $outro = "1";
-$totalStanzas = $verseCount + $preChorus_count + $repeatChorus + $outro;
+$totalStanzas = $verseCount + $preChorus_count + $repeatChorus + $outro; //total of 8
 $nouns = ["memories", "time", "thoughts", "you", "feeling", "part", "space", "sense", "heart", "baby", "pain", "rain", "everything", "own", "good"];
 $verbs = ["am", "playin'", "thought", "set", "keep", "taunting", "Holding", "outgrew", "has tried", "can fill", "pretending", "mending", "was", "could stand", "come", "crashin'", "can't go", "tried", "make", "done", "ease", "can stop", "live", "miss"];
 
