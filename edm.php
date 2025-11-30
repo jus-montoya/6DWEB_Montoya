@@ -3,15 +3,8 @@
 //Montoya, Justine S.
 //WD - 202
 
-$storeName = "Eau de Mon";
-$tagline = "The Smell of Confidence";
-
-$fragrances = [
-    ["name" => "Dior Sauvage", "notes" => "Fresh, Spicy, Bergamot, Ambroxan", "price" => 9295, "season" => "Year-round, especially warm weather", "occasion" => "Work, social events, romantic dinners"], //index 0
-    ["name" => "Creed Aventus", "notes" => "Fruity, Smoky, Pineapple, Birch", "price" => 14682, "season" => "Spring & Summer", "occasion" => "Office, celebrations, formal gatherings"], //index 1
-    ["name" => "Bleu de Chanel", "notes" => "Citrus, Woody, Sandalwood", "price" => 11995, "season" => "All seasons", "occasion" => "Business meetings, formal events, romantic evenings"], //index 2
-    ["name" => "Jean Paul Gaultier Le Male", "notes" => "Mint, Lavender, Vanilla", "price" => 5295, "season" => "Cooler months", "occasion" => "Nightlife, casual wear, youthful occasions"] //index 3
-    ];
+require 'fragrances.php';
+include 'header.php';
 ?>
 
 <!DOCTYPE html>
@@ -76,10 +69,7 @@ $fragrances = [
     </head>
 
     <body>
-        <h1><?php echo $storeName; ?></h1>
-        <p><em><?php echo $tagline; ?></em></p>
-
-        <p style="color:#c0a062; font-size:1.5em; font-weight:bold;"> Year-End Sale: Up to 10% Off All Fragrances!</p>
+        
 
         <table>
             <tr>
