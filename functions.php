@@ -1,4 +1,6 @@
 <?php
+//Montoya, Justine S.
+//WD - 202
 declare(strict_types=1);
 
 include "includes/header.php";
@@ -50,4 +52,5 @@ function get_tax_due(float $price, int $quantity, int $tax = 0): float {
         <td>₱<?= number_format(get_tax_due($price, $stock, $tax_rate), 2) ?></td>
     </tr>
     <?php endforeach; ?>
+
 </table>
